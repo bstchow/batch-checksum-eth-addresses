@@ -1,11 +1,8 @@
 {
   "scripts": {
-    "start": "nodemon index.js"
+    "checksum_addresses": "node checksum_addresses"
   },
   "dependencies": {
-    "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
+    "ethers": "5.7.2"
   }
 }
